@@ -4,11 +4,15 @@
   "description": "A simple example weather app. ",
   "main": "app.js",
   "scripts": {
+    "dev": "env-cmd -f ./config/dev.env node src/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Barnaby Thieme",
   "license": "ISC",
   "dependencies": {
     "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "env-cmd": "^10.1.0"
   }
 }
