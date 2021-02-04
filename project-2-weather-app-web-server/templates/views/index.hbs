@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <title>Weather Service</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="">
+  <meta name="author" content="Barnaby Thieme">
+  <link rel="stylesheet" type="text/css" href="/css/styles.css">
+  <script src="./js/app.js" defer></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="/img/icon.png" type="image/x-icon">
+</head>
+
+<body>
+  <div class="main-content">
+    <header>
+      {{>header}}
+    </header>
+
+    <p>Use this site to get the weather!</p>
+    <form>
+      <input type="text" placeholder="Location">
+      <button>Search</button>
+    </form>
+
+    <p id="messageOne"></p>
+    <p id="messageTwo"></p>
+  </div>
+
+  <footer>
+    {{>footer}}
+  </footer>
+</body>
+
+</html>

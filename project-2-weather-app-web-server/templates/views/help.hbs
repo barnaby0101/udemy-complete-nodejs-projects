@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <title>Help</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="">
+  <meta name="author" content="Barnaby Thieme">
+  <link rel="stylesheet" type="text/css" href="./css/styles.css">
+  {{!-- <script src="./js/app.js" defer></script> --}}
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="/img/icon.png" type="image/x-icon">
+</head>
+
+<body>
+  <div class="main-content">
+    <header>
+      {{>header}}
+    </header>
+
+    <main>
+      <p>If you get an error message, it may be due to a service outage.
+        This service uses the {{geoApi}} API for location data and the
+        {{weatherApi}} API for realtime weather information.</p>
+    </main>
+  </div>
+
+  <footer>
+    {{>footer}}
+  </footer>
+</body>
+
+</html>
